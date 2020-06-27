@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/sass.png">
+    <title>Sass Language</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <p>Product</p>
+        </div>
+        <div class="navigation">
+            <li><a href="">Homepage</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Shipment</a></li>
+            <li><a href="">About Us</a></li>
+        </div>
+    </nav>
+    <header>
+        <div data-aos="fade-down" class="headline">
+            <h1>Decoration your home and get comfortable.</h1>
+            <p>Increase and keep your productivity everyday during quarantinee with work on coworking space from now.</p>
+            <button class="btn-dark">Shop now</button>
+        </div>
+        <div data-aos="fade-left" class="pictures">
+            <img src="images/dekorasi.jpg" alt="" srcset="">
+            <img src="images/bunga.jfif" alt="" srcset="">
+        </div>
+    </header>
+    <section class="one">
+        <div data-aos="fade-right" class="description">
+            <h1>Decoration is more comfortable.</h1>
+        <p>Decorate is to spiff something up, making it more colorful and attractive, like hanging streamers in a room or ornaments on a tree.</p>
+        </div>
+        <div data-aos="fade-up" class="pictureOne">
+            <img src="images/kursi.jpg" alt="" srcset="">
+        </div>
+    </section>
+
+    <section class="two">
+        <div data-aos="fade-up" class="pictureOne">
+            <img src="images/hiasan.jpg" alt="" srcset="">
+        </div>
+        <div data-aos="fade-right" class="description">
+            <h1>Will adjust your favorite color.</h1>
+        <p>Decorate is to spiff something up, making it more colorful and attractive, like hanging streamers in a room or ornaments on a tree.</p>
+        </div>
+    </section>
+
+    <section class="three">
+        <div data-aos="fade-down" class="description">
+            <h1>Popular product.</h1>
+        <p>This is the product we provide for you. Let's buy now before regret</p>
+        </div>
+        <!-- Card -->
+        <div class="parentCards">
+            <div data-aos="flip-left" data-aos-duration="1400" class="card">
+                <div class="images">
+                    <img src="images/kursi1.webp" alt="" srcset="">
+                </div>
+                <div class="body">
+                    <small><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-half.svg"> &nbsp; 4.5 ( 230 Reviews )</small>
+                    <h3>Soffa Chair</h3>
+                    <p>Soffa is veri comfortable for your family gathering.</p>
+                    <button class="addcart">Add to cart</button>
+                </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="2500" class="card">
+                <div class="images">
+                    <img src="images/kursi2.jpg" alt="" srcset="">
+                </div>
+                <div class="body">
+                    <small><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-half.svg"> &nbsp; 4.5 ( 185 Reviews )</small>
+                    <h3>Brown Soffa</h3>
+                    <p>Soffa is veri comfortable for your family gathering.</p>
+                    <button class="addcart">Add to cart</button>
+                </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="3200" class="card">
+                <div class="images">
+                    <img src="images/kursi3.jpg" alt="" srcset="">
+                </div>
+                <div class="body">
+                    <small><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-fill.svg"><img src="node_modules/bootstrap-icons/icons/star-half.svg"> &nbsp; 4.5 ( 239 Reviews )</small>
+                    <h3>Gold Soffa</h3>
+                    <p>Soffa is veri comfortable for your family gathering.</p>
+                    <button class="addcart"> Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="moreproduct">See more</button>
+        </div>
+    </section>
+
+    <div data-aos="zoom-in-up" class="newsletter">
+        <h1>Daily Newsletter</h1>
+        <p>Lets subscribe to get a daily newsletter from us about product</p>
+        <div class="news">
+            <input type="text" placeholder="Type your email">
+            <button class="moreproduct">Subscribe</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;2020. Made by Ferdian Ahmad Rozikin.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1400
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.btn-primary {
+  padding: 10px 24px;
+  border: none;
+  background: #1700e7;
+}
+
+.btn-secondary {
+  padding: 10px 24px;
+  border: none;
+  background: lightgray;
+}
+
+.btn-warning {
+  padding: 10px 24px;
+  border: none;
+  background: #fbff25;
+}
+
+/*# sourceMappingURL=button.css.map */

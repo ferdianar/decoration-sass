@@ -1,0 +1,346 @@
+.btn-primary {
+  padding: 12px 40px;
+  border: none;
+  background: #7465ff;
+}
+
+.btn-secondary {
+  padding: 12px 40px;
+  border: none;
+  background: lightgray;
+}
+
+.btn-warning {
+  padding: 12px 40px;
+  border: none;
+  background: #fbff25;
+}
+
+.btn-dark {
+  padding: 12px 40px;
+  border: none;
+  background: #2b2b2b;
+}
+
+@media screen and (max-width: 768px) {
+  nav .brand {
+    width: 10%;
+  }
+  nav .brand p {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #FFF;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #FFF;
+}
+nav .brand {
+  width: 30%;
+  background-color: #FFF;
+}
+nav .brand p {
+  line-height: 80px;
+  font-size: 20px;
+  color: #2b2b2b;
+  font-weight: bold;
+  padding-left: 120px;
+}
+nav .navigation {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
+}
+nav .navigation li {
+  padding-left: 45px;
+  list-style: none;
+  line-height: 80px;
+}
+nav .navigation li a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+header {
+  padding: 110px 0 0 120px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+header .headline {
+  width: 45%;
+  margin-right: 5%;
+}
+header .headline h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+header .headline p {
+  padding-top: 30px;
+  font-size: 1.375rem;
+  line-height: 1.75;
+}
+header .pictures {
+  width: 50%;
+  display: flex;
+  margin-left: 10%;
+}
+header .pictures img {
+  margin-top: -40px;
+  width: 40%;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+}
+header .btn-dark {
+  margin-top: 40px;
+  color: #FFF;
+  font-size: 16px;
+}
+header .btn-dark:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+section.one {
+  margin-top: 100px;
+  padding: 100px 120px;
+  width: 100%;
+  display: flex;
+  height: 400px;
+  margin-bottom: 100px;
+  background-color: #FFF;
+}
+section.one .description {
+  width: 50%;
+}
+section.one .description h1 {
+  font-size: 2.75rem;
+  line-height: 1.3;
+}
+section.one .description p {
+  padding-top: 25px;
+  font-size: 20px;
+  line-height: 1.75;
+}
+section.one .pictureOne {
+  width: 50%;
+  height: 300px;
+}
+section.one .pictureOne img {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+section.two {
+  margin-top: 0px;
+  padding: 100px 120px;
+  width: 100%;
+  display: flex;
+  height: 400px;
+  margin-bottom: 100px;
+  background-color: #FFF;
+}
+section.two .description {
+  width: 50%;
+}
+section.two .description h1 {
+  font-size: 2.75rem;
+  line-height: 1.3;
+  padding-left: 30px;
+}
+section.two .description p {
+  padding-top: 25px;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.75;
+}
+section.two .pictureOne {
+  width: 50%;
+  height: 300px;
+}
+section.two .pictureOne img {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+section.three {
+  margin-top: 120px;
+  width: 100%;
+  padding: 30px 120px;
+  background-color: #FFF;
+  margin-bottom: 100px;
+}
+section.three .description {
+  width: 100%;
+}
+section.three .description h1 {
+  font-size: 2.75rem;
+  text-align: center;
+  line-height: 1.3;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+section.three .description p {
+  padding-top: 25px;
+  text-align: center;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.75;
+}
+section.three .parentCards {
+  display: flex;
+  justify-content: space-between;
+}
+section.three .parentCards .card {
+  background-color: #e0e0e0;
+  margin-top: 80px;
+  width: 18rem;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+section.three .parentCards .card .images {
+  overflow: hidden;
+  height: 150px;
+}
+section.three .parentCards .card .images img {
+  border-radius: 18px 18px 0 0;
+  width: 100%;
+  object-fit: cover;
+  -webkit-border-radius: 18px 18px 0 0;
+  -moz-border-radius: 18px 18px 0 0;
+  -ms-border-radius: 18px 18px 0 0;
+  -o-border-radius: 18px 18px 0 0;
+}
+section.three .parentCards .card .body {
+  width: 100%;
+  padding: 20px 20px 30px 20px;
+}
+section.three .parentCards .card .body h3 {
+  padding-top: 8px;
+}
+section.three .parentCards .card .body p {
+  padding-top: 15px;
+  line-height: 1.75;
+}
+section.three .parentCards .card .body .addcart {
+  width: 100%;
+  margin-top: 40px;
+  padding: 12px 40px;
+  background-color: #2b2b2b;
+  border: none;
+  border-radius: 6px;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+section.three .parentCards .card .body .addcart:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+section.three .btn {
+  width: 100%;
+  margin: 80px auto;
+  text-align: center;
+}
+section.three .btn .moreproduct {
+  padding: 12px 40px;
+  border: none;
+  background-color: #2b2b2b;
+  color: #FFF;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+section.three .btn .moreproduct:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.newsletter {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  padding: 50px 80px;
+  background-color: #2b2b2b;
+  color: #FFF;
+  text-align: center;
+}
+.newsletter p {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.newsletter .news input {
+  padding: 12px 40px;
+  width: 50%;
+}
+.newsletter .news .moreproduct {
+  padding: 6px 14px;
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 18px;
+  border: 1px solid #FFF;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  margin-top: 6px;
+}
+.newsletter .news .moreproduct:hover {
+  cursor: pointer;
+  background-color: #FFF;
+  color: #000;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  background-color: #2b2b2b;
+  text-align: center;
+}
+footer p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */

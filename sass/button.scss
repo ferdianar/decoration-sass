@@ -1,0 +1,34 @@
+@import './background.scss';
+
+$primary : rgb(116, 101, 255);
+$secondary : rgb(211, 211, 211);
+$warning : rgb(251, 255, 37);
+$danger : rgb(255, 59, 59);
+$dark : rgb(43, 43, 43);
+$light : #FFF;
+
+$border : none;
+$padding : 12px 40px;
+
+.btn-primary {
+    padding: $padding;
+    border: $border;
+    background: $primary;
+}
+
+.btn-secondary {
+    padding: $padding;
+    border: $border;
+    background: $secondary;
+}
+
+.btn-warning {
+    padding: $padding;
+    border: $border;
+    background: $warning;
+}
+.btn-dark {
+    padding: $padding;
+    border: $border;
+    background: $dark;
+}
